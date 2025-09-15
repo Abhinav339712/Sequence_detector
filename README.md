@@ -47,7 +47,8 @@ The detector is **non-overlapping**, meaning that once the sequence is detected,
 
 ## ▶️ How to Run the Simulation
 
-### Using Icarus Verilog
-1. Compile the design and testbench:
-   ```sh
-   iverilog -o seq_detector_tb seq_detector.v seq_detector_tb.v
+### Using Xilinx ISE & ModelSim
+1. Open **Xilinx ISE**, **ModelSim**, or any Verilog simulator.  
+2. Add both `fifo.v` and `fifo_tb.v` to the project.  
+3. Run behavioral simulation.  
+4. Observe data writes, reads, and flag outputs in the waveform.  
